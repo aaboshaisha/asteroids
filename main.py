@@ -38,7 +38,6 @@ def main():
         
         for obj in asteroids:
             if obj.collide(player):
-                print(obj, player)
                 print('Game over!')
                 sys.exit()
         
